@@ -1,0 +1,22 @@
+{
+  "name": "attendance-system",
+  "version": "1.0.0",
+  "description": "Offline-first attendance system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC"
+}
